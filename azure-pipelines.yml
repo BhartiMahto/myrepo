@@ -3,6 +3,8 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+name: 1.0.1$(rev:.r)
+
 trigger:
 - main
 
